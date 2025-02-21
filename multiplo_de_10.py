@@ -15,10 +15,10 @@
 
 # Entradas
 A = int(input("Ingrese el nuemro que desaria ver si es multiplo de 10: \n"))
-if A % 10 == 0:
-    print("Su numero si es multiplo entre 10")
+if A != 0  and A % 10 == 0:
+    print("Su numero si es multiplo de 10")
 else:
-    print("Su numero no es multiplo entre 10")
+    print("Su numero no es multiplo de 10")
 
 # Proceso
 
